@@ -15,3 +15,831 @@ Completed 200 OK in 238ms (Views: 236.1ms | ActiveRecord: 0.0ms | Allocations: 1
 
 ArgumentError - too long unix socket path (107bytes given but 104bytes max):
 
+Started GET "/" for ::1 at 2022-12-22 13:55:37 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.3ms | Allocations: 122)
+  Rendered shared/_masthead.html.erb (Duration: 0.6ms | Allocations: 81)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.4ms | Allocations: 81)
+  Rendered shared/_search_modal.html.erb (Duration: 0.3ms | Allocations: 81)
+  Rendered shared/_main_content.html.erb (Duration: 0.7ms | Allocations: 81)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 3109)
+  Rendered layout layouts/application.html.erb (Duration: 575.1ms | Allocations: 309727)
+Completed 200 OK in 591ms (Views: 581.1ms | ActiveRecord: 0.0ms | Allocations: 312821)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 13:55:40 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:06:37 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 1911)
+  Rendered layout layouts/application.html.erb (Duration: 48.6ms | Allocations: 13949)
+Completed 200 OK in 53ms (Views: 51.1ms | Allocations: 14898)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:06:39 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:06:41 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1324)
+  Rendered layout layouts/application.html.erb (Duration: 43.2ms | Allocations: 13920)
+Completed 200 OK in 47ms (Views: 45.4ms | Allocations: 14809)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:06:42 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:07:34 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1927)
+  Rendered layout layouts/application.html.erb (Duration: 43.5ms | Allocations: 12584)
+Completed 200 OK in 49ms (Views: 46.8ms | Allocations: 13834)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:07:35 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:07:35 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 3389)
+  Rendered layout layouts/application.html.erb (Duration: 54.4ms | Allocations: 22837)
+Completed 200 OK in 59ms (Views: 56.8ms | Allocations: 24582)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:07:36 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:07:38 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1601)
+  Rendered layout layouts/application.html.erb (Duration: 42.3ms | Allocations: 14113)
+Completed 200 OK in 45ms (Views: 44.0ms | Allocations: 15014)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:07:39 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:07:39 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1904)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 6578)
+Completed 200 OK in 26ms (Views: 24.4ms | Allocations: 7745)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:07:40 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:08:07 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1592)
+  Rendered layout layouts/application.html.erb (Duration: 46.6ms | Allocations: 14581)
+Completed 200 OK in 49ms (Views: 48.0ms | Allocations: 15143)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:08:08 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:08:10 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1897)
+  Rendered layout layouts/application.html.erb (Duration: 48.1ms | Allocations: 14877)
+Completed 200 OK in 53ms (Views: 50.8ms | Allocations: 15751)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:08:11 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:08:17 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.3ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.9ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 2198)
+  Rendered layout layouts/application.html.erb (Duration: 50.7ms | Allocations: 14149)
+Completed 200 OK in 56ms (Views: 54.5ms | Allocations: 15045)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:08:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:08:21 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1904)
+  Rendered layout layouts/application.html.erb (Duration: 50.9ms | Allocations: 14587)
+Completed 200 OK in 54ms (Views: 53.0ms | Allocations: 15778)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:08:22 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:08:24 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 2215)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 6878)
+Completed 200 OK in 28ms (Views: 25.7ms | Allocations: 7762)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:08:24 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:08:29 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1893)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 5451)
+Completed 200 OK in 21ms (Views: 19.2ms | Allocations: 6334)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:08:30 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:08:32 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1892)
+  Rendered layout layouts/application.html.erb (Duration: 41.6ms | Allocations: 16914)
+Completed 200 OK in 45ms (Views: 43.4ms | Allocations: 17822)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:08:33 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:08:35 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1913)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 5743)
+Completed 200 OK in 28ms (Views: 26.2ms | Allocations: 6641)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:08:35 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:08:37 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 2198)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 5758)
+Completed 200 OK in 26ms (Views: 24.8ms | Allocations: 6653)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:08:38 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:09:17 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1895)
+  Rendered layout layouts/application.html.erb (Duration: 49.6ms | Allocations: 12639)
+Completed 200 OK in 53ms (Views: 51.3ms | Allocations: 13820)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:09:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:09:24 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1897)
+  Rendered layout layouts/application.html.erb (Duration: 44.9ms | Allocations: 11214)
+Completed 200 OK in 49ms (Views: 47.2ms | Allocations: 12102)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:09:24 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:09:25 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 1913)
+  Rendered layout layouts/application.html.erb (Duration: 55.4ms | Allocations: 17449)
+Completed 200 OK in 60ms (Views: 58.2ms | Allocations: 18360)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:09:25 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:09:27 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 11.0ms | Allocations: 1901)
+  Rendered layout layouts/application.html.erb (Duration: 103.7ms | Allocations: 6874)
+Completed 200 OK in 115ms (Views: 113.1ms | Allocations: 7785)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:09:28 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:09:34 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1906)
+  Rendered layout layouts/application.html.erb (Duration: 43.4ms | Allocations: 17847)
+Completed 200 OK in 46ms (Views: 45.4ms | Allocations: 19032)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:09:34 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:09:36 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 1909)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 7217)
+Completed 200 OK in 28ms (Views: 25.6ms | Allocations: 8105)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:09:36 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:09:39 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1610)
+  Rendered layout layouts/application.html.erb (Duration: 40.6ms | Allocations: 12383)
+Completed 200 OK in 45ms (Views: 43.5ms | Allocations: 13279)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:09:39 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:09:40 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1906)
+  Rendered layout layouts/application.html.erb (Duration: 46.6ms | Allocations: 12647)
+Completed 200 OK in 51ms (Views: 49.2ms | Allocations: 13557)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:09:41 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:09:44 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1904)
+  Rendered layout layouts/application.html.erb (Duration: 51.7ms | Allocations: 16858)
+Completed 200 OK in 57ms (Views: 54.0ms | Allocations: 17751)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:09:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:10:00 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1898)
+  Rendered layout layouts/application.html.erb (Duration: 49.4ms | Allocations: 16333)
+Completed 200 OK in 55ms (Views: 52.8ms | Allocations: 17246)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:10:01 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:10:14 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1601)
+  Rendered layout layouts/application.html.erb (Duration: 41.1ms | Allocations: 12777)
+Completed 200 OK in 43ms (Views: 42.5ms | Allocations: 13689)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:10:15 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:10:29 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.4ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 1886)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 5748)
+Completed 200 OK in 23ms (Views: 21.1ms | Allocations: 6670)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:10:30 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:11:28 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1601)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 5445)
+Completed 200 OK in 24ms (Views: 22.4ms | Allocations: 6304)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:11:28 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:11:30 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.5ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1904)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 5763)
+Completed 200 OK in 26ms (Views: 24.7ms | Allocations: 6642)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:11:30 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:11:41 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1893)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 7163)
+Completed 200 OK in 25ms (Views: 23.2ms | Allocations: 8027)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:11:42 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:11:46 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1901)
+  Rendered layout layouts/application.html.erb (Duration: 54.5ms | Allocations: 17042)
+Completed 200 OK in 60ms (Views: 57.3ms | Allocations: 17950)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:11:46 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:11:48 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.4ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1601)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 5436)
+Completed 200 OK in 21ms (Views: 20.1ms | Allocations: 6347)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:11:49 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:11:49 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 2181)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 6884)
+Completed 200 OK in 23ms (Views: 21.8ms | Allocations: 7796)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:11:50 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:11:51 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.5ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1606)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 6886)
+Completed 200 OK in 27ms (Views: 25.2ms | Allocations: 7791)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:11:51 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:11:58 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1911)
+  Rendered layout layouts/application.html.erb (Duration: 42.0ms | Allocations: 13707)
+Completed 200 OK in 46ms (Views: 44.4ms | Allocations: 14651)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:11:58 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:11:59 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 1899)
+  Rendered layout layouts/application.html.erb (Duration: 48.0ms | Allocations: 13486)
+Completed 200 OK in 54ms (Views: 50.7ms | Allocations: 14386)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:12:00 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:12:06 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 2192)
+  Rendered layout layouts/application.html.erb (Duration: 39.6ms | Allocations: 13786)
+Completed 200 OK in 42ms (Views: 40.9ms | Allocations: 14673)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:12:07 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:12:18 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 3.5ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 1792)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 5439)
+Completed 200 OK in 25ms (Views: 24.0ms | Allocations: 6332)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:12:20 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:12:22 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.3ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 11.5ms | Allocations: 1904)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 5765)
+Completed 200 OK in 29ms (Views: 27.5ms | Allocations: 6665)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:12:22 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:12:25 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.2ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1909)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 5734)
+Completed 200 OK in 26ms (Views: 24.2ms | Allocations: 6643)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:12:25 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:12:35 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 1881)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 6087)
+Completed 200 OK in 28ms (Views: 26.2ms | Allocations: 6630)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:12:35 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:12:40 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1913)
+  Rendered layout layouts/application.html.erb (Duration: 42.4ms | Allocations: 13782)
+Completed 200 OK in 47ms (Views: 44.9ms | Allocations: 14679)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:12:41 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:12:46 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 1902)
+  Rendered layout layouts/application.html.erb (Duration: 49.7ms | Allocations: 12275)
+Completed 200 OK in 53ms (Views: 51.9ms | Allocations: 13187)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:12:47 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:12:47 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1913)
+  Rendered layout layouts/application.html.erb (Duration: 40.2ms | Allocations: 13127)
+Completed 200 OK in 43ms (Views: 42.1ms | Allocations: 14318)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:12:48 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
+Started GET "/" for ::1 at 2022-12-22 14:13:01 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1915)
+  Rendered layout layouts/application.html.erb (Duration: 26.5ms | Allocations: 7159)
+Completed 200 OK in 32ms (Views: 29.4ms | Allocations: 8056)
+
+
+Started GET "/cart.json" for ::1 at 2022-12-22 14:13:02 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/cart.json"):
+  
