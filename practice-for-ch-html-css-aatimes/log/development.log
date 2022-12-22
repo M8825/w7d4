@@ -1,0 +1,17 @@
+Started GET "/" for ::1 at 2022-12-22 13:46:07 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 122)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1573)
+  Rendered layout layouts/application.html.erb (Duration: 233.0ms | Allocations: 143163)
+Completed 200 OK in 238ms (Views: 236.1ms | ActiveRecord: 0.0ms | Allocations: 145671)
+
+
+
+ArgumentError - too long unix socket path (107bytes given but 104bytes max):
+
