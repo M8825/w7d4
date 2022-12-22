@@ -16,11 +16,12 @@
 
   > ul {
     > li {
-      font-size: 15px;
+      font-size: 12px;
       font-family: Arial;
-      font-weight: 600;
+      font-weight: 700;
       text-transform: uppercase;
       margin-left: 15px;
+      padding: 10px;
     }
   }
 
@@ -46,6 +47,6 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background-color: rgb(241, 240, 240);
 }
 
