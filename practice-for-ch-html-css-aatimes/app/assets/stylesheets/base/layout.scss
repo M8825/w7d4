@@ -17,16 +17,16 @@ body {
 // button-color: 68 105 139
 button {
 	background-color: rgb(68, 105, 139);
-	border-color: rgb(31, 52, 71);
+	border-color: rgb(46, 89, 130);
 	color: rgb(242, 247, 248);
-	// font-weight:
-	// padding:
+	font-weight: 700;
+	padding: 6px 10px;
 	border-radius: 3px;
 	// transition:
 	font-family: arial;
-	// text-transform:
-	// font-size:
-	// text-align:
+	text-transform: uppercase;
+	font-size: 11px;
+	text-align: center;
 }
 
 button:hover {
