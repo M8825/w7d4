@@ -843,3 +843,173 @@ Started GET "/cart.json" for ::1 at 2022-12-22 14:13:02 -0500
   
 ActionController::RoutingError (No route matches [GET] "/cart.json"):
   
+Started GET "/" for ::1 at 2022-12-22 14:27:16 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 128)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered shared/_search_modal.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1580)
+  Rendered layout layouts/application.html.erb (Duration: 52.3ms | Allocations: 35185)
+Completed 200 OK in 58ms (Views: 55.0ms | ActiveRecord: 0.0ms | Allocations: 37616)
+
+
+
+ArgumentError - too long unix socket path (107bytes given but 104bytes max):
+
+Started GET "/" for ::1 at 2022-12-22 14:27:35 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 115)
+  Rendered shared/_masthead.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered shared/_search_modal.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1243)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 3848)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 4609)
+
+
+
+ArgumentError - too long unix socket path (107bytes given but 104bytes max):
+
+Started GET "/" for ::1 at 2022-12-22 14:29:03 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.5ms | Allocations: 116)
+  Rendered shared/_masthead.html.erb (Duration: 1.4ms | Allocations: 81)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.4ms | Allocations: 81)
+  Rendered shared/_search_modal.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered shared/_main_content.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1244)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3865)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 4615)
+
+
+
+ArgumentError - too long unix socket path (107bytes given but 104bytes max):
+
+Started GET "/" for ::1 at 2022-12-22 14:30:28 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 389)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2542)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 2805)
+
+
+
+ArgumentError - too long unix socket path (107bytes given but 104bytes max):
+
+Started GET "/" for ::1 at 2022-12-22 14:31:13 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.2ms | Allocations: 117)
+  Rendered shared/_masthead.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered shared/_search_modal.html.erb (Duration: 0.3ms | Allocations: 81)
+  Rendered shared/_main_content.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1240)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3830)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 4562)
+
+
+
+ArgumentError - too long unix socket path (107bytes given but 104bytes max):
+
+Started GET "/" for ::1 at 2022-12-22 14:34:35 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.7ms | Allocations: 116)
+  Rendered shared/_masthead.html.erb (Duration: 0.4ms | Allocations: 81)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.4ms | Allocations: 81)
+  Rendered shared/_search_modal.html.erb (Duration: 0.4ms | Allocations: 81)
+  Rendered shared/_main_content.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1244)
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 7482)
+Completed 200 OK in 27ms (Views: 24.9ms | Allocations: 8228)
+
+
+
+ArgumentError - too long unix socket path (107bytes given but 104bytes max):
+
+Started GET "/" for ::1 at 2022-12-22 14:35:10 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 389)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 6112)
+Completed 200 OK in 15ms (Views: 14.1ms | Allocations: 6371)
+
+
+
+ArgumentError - too long unix socket path (107bytes given but 104bytes max):
+
+Started GET "/" for ::1 at 2022-12-22 14:35:33 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 389)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 3726)
+Completed 200 OK in 15ms (Views: 13.3ms | Allocations: 3970)
+
+
+
+ArgumentError - too long unix socket path (107bytes given but 104bytes max):
+
+Started GET "/" for ::1 at 2022-12-22 14:36:07 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.0ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 389)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 6087)
+Completed 200 OK in 6ms (Views: 5.3ms | Allocations: 6337)
+
+
+
+ArgumentError - too long unix socket path (107bytes given but 104bytes max):
+
+Started GET "/" for ::1 at 2022-12-22 14:36:14 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_masthead.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_sections_nav.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_search_modal.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered shared/_main_content.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 389)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3722)
+Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 3970)
+
+
+
+ArgumentError - too long unix socket path (107bytes given but 104bytes max):
+

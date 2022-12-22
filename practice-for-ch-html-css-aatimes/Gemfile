@@ -38,3 +38,4 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
 end
+gem "ruby-lsp", "~> 0.3.7", :group => :development

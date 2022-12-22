@@ -8,17 +8,22 @@ html {
 
 body {
 	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
+// button-color: 68 105 139
 button {
-	// background-color:
-	// border-color:
-	// color:
+	background-color: rgb(68, 105, 139);
+	border-color: rgb(31, 52, 71);
+	color: rgb(242, 247, 248);
 	// font-weight:
 	// padding:
-	// border-radius:
+	border-radius: 3px;
 	// transition:
-	// font-family:
+	font-family: arial;
 	// text-transform:
 	// font-size:
 	// text-align:
